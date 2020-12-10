@@ -5,4 +5,4 @@ num = int(input("정수를 입력하세요."))
 for i in range(1, num+1, 1):
     answer = num % i
     if(answer == 0):
-        print(i,)
+        print(i,end=' ') # end 옆으로 출력
